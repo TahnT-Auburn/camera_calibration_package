@@ -1,0 +1,54 @@
+#TRI028S-CC
+camera1:
+  camera_calibration:
+    ros__parameters:
+      camera_name: "TRI028S-CC"
+      image_path: "/home/tahnt/T3_Repos/camera_packages/ros2_ws/src/camera_calibration_package/calibration_images/TRI028S_CC_1280x720"
+      extension: "/*.jpg"
+      pattern_size: [8.0, 8.0]
+      frame_size: [1280.0, 720.0]
+      camera_output_file: "/home/tahnt/T3_Repos/camera_packages/ros2_ws/src/camera_calibration_package/camera_params/TRI028S-CC_params_1280x720.yaml"
+
+#CAMERA2
+camera2:
+  camera_calibration:
+    ros__parameters:
+      camera_name: "<camera_name>"
+      image_path: "<image_path>"
+      extension: "/*.<extension>"
+      pattern_size: [<checker_dim, checker_dim>]
+      frame_size: [<image_width>, <image_height>]
+      camera_output_file: "<camera_output_file>"
+
+#CAMERA3
+camera3:
+  camera_calibration:
+    ros__parameters:
+      camera_name: "<camera_name>"
+      image_path: "<image_path>"
+      extension: "/*.<extension>"
+      pattern_size: [<checker_dim, checker_dim>]
+      frame_size: [<image_width>, <image_height>]
+      camera_output_file: "<camera_output_file>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
